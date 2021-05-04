@@ -3,6 +3,8 @@ const moment = require('moment');
 const cron = require('node-cron');
 const axios = require('axios');
 const notifier = require('./notifier');
+const express = require('express');
+const app = express();
 /**
 Step 1) Enable application access on your gmail with steps given here:
  https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637554658548216477-2576856839&rd=1
@@ -73,6 +75,10 @@ notifyMe(validSlots){
 };
 
 async function fetchNext10Days(){
+    app.get("/",(res,req) => {
+        res.send("Working..!");
+    });
+    app.listen(process.env.PORT || 5000);
     let dates = [];
     let today = moment();
     for(let i = 0 ; i < 10 ; i ++ ){

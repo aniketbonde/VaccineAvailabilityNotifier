@@ -4,10 +4,9 @@
   "description": "",
   "main": "vaccineNotifier.js",
   "scripts": {
-    "start": "node vaccineNotifier.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vaccineNotifier.js"
   },
-  "author": "sharmakartikey54@gmail.com",
+  "author": "aa",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",

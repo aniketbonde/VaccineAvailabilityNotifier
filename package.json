@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node vaccineNotifier.js"
   },
-  "author": "sharmakartikey54@gmail.com",
+  "author": "aa",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",

@@ -4,7 +4,7 @@
   "description": "",
   "main": "vaccineNotifier.js",
   "scripts": {
-    "start": "vaccineNotifier.js"
+    "start": "node vaccineNotifier.js"
   },
   "author": "aa",
   "license": "ISC",

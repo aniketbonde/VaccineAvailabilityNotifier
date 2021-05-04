@@ -4,7 +4,7 @@
   "description": "",
   "main": "vaccineNotifier.js",
   "scripts": {
-    "start": "node vaccineNotifier.js"
+    "start": "node vaccineNotifier.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sharmakartikey54@gmail.com",
